@@ -67,6 +67,11 @@ a {
   text-decoration: none;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: 1px solid currentColor;
+}
+
 .header-link {
   color: #212121;
   font-weight: 500;
