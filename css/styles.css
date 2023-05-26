@@ -471,6 +471,7 @@ footer {
 
 .social-media {
   display: flex;
+  flex-direction: row;
   max-width: 206px;
   justify-content: space-around;
   margin: auto;
