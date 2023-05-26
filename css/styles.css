@@ -293,7 +293,7 @@ footer {
 .webstudio-section {
   background: #2f303a;
   padding: 200px 0;
-  background-image: url(./images/image-header.jpg);
+  background-image: url(/goit-markup-hw-04/images/image-header.jpg);
   background-position: center;
   background-size: cover;
   min-height: 600px;
