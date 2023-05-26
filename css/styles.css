@@ -343,11 +343,16 @@ footer {
   gap: 30px;
 }
 
-.lorem-picture {
+.lorem-block {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.lorem-icon {
+  padding: 25px 100px;
 }
 
 .lorem-h2 {
