@@ -297,10 +297,12 @@ footer {
 
 .webstudio-section {
   background: #2f303a;
+  background-image: linear-gradient(to right, #2f303a, #2f303a);
   padding: 200px 0;
   background-image: url(/goit-markup-hw-04/images/image-header.jpg);
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
   min-height: 600px;
 }
 
