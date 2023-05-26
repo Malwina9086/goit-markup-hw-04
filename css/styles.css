@@ -158,6 +158,12 @@ nav {
   width: 370px;
 }
 
+.portfolio-frame:hover,
+.portfolio-frame:focus {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
 .h3-portfolio {
   color: #212121;
   font-size: 18px;
