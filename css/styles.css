@@ -492,6 +492,12 @@ footer {
   padding: 94px 0;
 }
 
+.social-media-icons .media-icons:hover,
+.social-media-icons .media-icons:focus {
+  background-color: #2196f3;
+  fill: #fff;
+}
+
 .our-clients-h2 {
   font-family: Roboto;
   font-size: 36px;
