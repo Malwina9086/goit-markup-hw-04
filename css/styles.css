@@ -353,7 +353,7 @@ footer {
 
 .lorem-section {
   display: flex;
-  margin: 0 30px 94px 0;
+  gap: 30px;
 }
 
 .lorem-block {
@@ -377,6 +377,7 @@ footer {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .paragraph-lorem {
@@ -466,6 +467,25 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 10px;
+}
+
+.social-media {
+  display: flex;
+  max-width: 206px;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 18px;
+}
+
+.social-media-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.media-icons {
+  margin: 12px;
+  fill: #afb1b8;
 }
 
 .clients-section {
