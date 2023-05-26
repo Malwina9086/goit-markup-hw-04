@@ -353,23 +353,21 @@ footer {
 
 .lorem-section {
   display: flex;
-  gap: 30px;
+  margin: 0 30px 94px 0;
 }
 
 .lorem-block {
+  box-sizing: border-box;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   align-content: center;
   border-radius: 4px;
-}
-
-.lorem-gap {
-  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .lorem-icon {
-  padding: 25px 100px;
+  margin: 25px 100px;
 }
 
 .lorem-h2 {
