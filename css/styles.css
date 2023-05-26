@@ -72,6 +72,11 @@ a {
   margin-right: 10px;
 }
 
+.header-icon:hover,
+.header-icon:focus {
+  color: #2196f3;
+}
+
 .header-link {
   color: #212121;
   font-weight: 500;
