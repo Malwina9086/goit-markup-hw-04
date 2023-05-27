@@ -106,7 +106,6 @@ nav {
 }
 
 .header-tel-box {
-  width: 130px;
   height: 16px;
 }
 
@@ -471,32 +470,33 @@ footer {
 
 .social-media {
   display: flex;
-  flex-direction: row;
-  max-width: 206px;
-  justify-content: space-around;
-  margin: auto;
-  margin-bottom: 18px;
+  margin-top: 16px;
+  justify-content: center;
+  gap: 10px;
 }
 
 .social-media-icons {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.social-media-icons:hover,
+.social-media-icons:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .media-icons {
-  margin: 12px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .clients-section {
   padding: 94px 0;
-}
-
-.social-media-icons .media-icons:hover,
-.social-media-icons .media-icons:focus {
-  background-color: #2196f3;
-  fill: #fff;
 }
 
 .our-clients-h2 {
