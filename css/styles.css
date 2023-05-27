@@ -485,10 +485,9 @@ footer {
   color: #afb1b8;
 }
 
-.social-media-icons .media-icons:hover,
-.social-media-icons.media-icons:focus {
+.social-media-icons:hover,
+.social-media-icons:focus {
   background-color: #2196f3;
-  fill: #ffffff;
 }
 
 .media-icons {
@@ -515,13 +514,20 @@ footer {
 }
 
 .client-icon-div {
+  display: flex;
   width: 170px;
   height: 92px;
+  justify-content: center;
+  align-items: center;
   border: 1px rgba(175, 177, 184, 1) solid;
   border-radius: 4px;
 }
 
 .client-icon {
-  margin: 16px 32px;
-  fill: #afb1b8;
+  fill: currentColor;
+}
+
+.client-icon-div:hover,
+.client-icon-div:focus {
+  border-color: #2196f3;
 }
