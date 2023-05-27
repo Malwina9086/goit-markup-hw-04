@@ -485,8 +485,8 @@ footer {
   color: #afb1b8;
 }
 
-.social-media-icons:hover,
-.social-media-icons:focus {
+.social-media-icons .media-icons:hover,
+.social-media-icons.media-icons:focus {
   background-color: #2196f3;
   fill: #ffffff;
 }
