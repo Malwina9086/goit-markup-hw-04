@@ -121,6 +121,8 @@ nav {
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .header-contact:hover,
@@ -361,17 +363,13 @@ footer {
 }
 
 .lorem-block {
-  box-sizing: border-box;
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  align-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.lorem-icon {
-  margin: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lorem-h2 {
@@ -381,7 +379,6 @@ footer {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 30px;
 }
 
 .paragraph-lorem {
@@ -390,9 +387,7 @@ footer {
   line-height: 1.7;
   font-weight: 400;
   letter-spacing: 0.03em;
-  width: 270px;
   margin-top: 10px;
-  margin-bottom: 94px;
 }
 
 .work {
