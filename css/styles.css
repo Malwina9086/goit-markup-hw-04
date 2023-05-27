@@ -89,8 +89,8 @@ nav {
   color: #2196f3;
 }
 
-.header-link .header-icon:hover,
-.header-link .header-icon:focus {
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
 
@@ -111,7 +111,7 @@ nav {
 }
 
 .header-icon {
-  display: inline;
+  fill: currentColor;
   margin-right: 10px;
 }
 
