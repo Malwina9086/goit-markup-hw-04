@@ -259,10 +259,7 @@ footer {
 }
 
 .block-two {
-  margin-right: 70px;
-  display: flex;
-  width: 206px;
-  height: 80px;
+  margin-left: 70px;
 }
 
 .footer-media {
@@ -491,11 +488,10 @@ footer {
 .social-media-icons:hover,
 .social-media-icons:focus {
   background-color: #2196f3;
+  fill: #fff;
 }
 
 .media-icons {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -524,40 +520,12 @@ footer {
   height: 92px;
   justify-content: center;
   align-items: center;
-  border: 1px rgba(175, 177, 184, 1) solid;
+  border: 1px solid currentColor;
   border-radius: 4px;
-}
-
-.client-icon {
-  fill: currentColor;
+  color: rgba(175, 177, 184, 1);
 }
 
 .client-icon-div:hover,
 .client-icon-div:focus {
   border-color: #2196f3;
-}
-
-.icon-logo-0 {
-  width: 41px;
-  height: 46.7px;
-}
-.icon-logo-1 {
-  width: 40px;
-  height: 52px;
-}
-.icon-logo-2 {
-  width: 43.46px;
-  height: 41.18;
-}
-.icon-logo-3 {
-  width: 84.44px;
-  height: 40.62px;
-}
-.icon-logo-4 {
-  width: 62.54px;
-  height: 60.04px;
-}
-.icon-logo-5 {
-  width: 93.79px;
-  height: 43.93px;
 }
