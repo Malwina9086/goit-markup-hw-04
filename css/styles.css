@@ -280,10 +280,18 @@ footer {
   border-radius: 50%;
 }
 
+.footer-icon {
+  fill: currentColor;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: #fff;
+}
+
 .footer-icon-li:hover,
 .footer-icon-li:focus {
   background-color: #2196f3;
-  fill: #fff;
 }
 
 .footer-between:not(:last-child) {
@@ -488,6 +496,10 @@ footer {
 .social-media-icons:hover,
 .social-media-icons:focus {
   background-color: #2196f3;
+}
+
+.media-icons:hover,
+.media-icons:focus {
   fill: #fff;
 }
 
@@ -523,6 +535,10 @@ footer {
   border: 1px solid currentColor;
   border-radius: 4px;
   color: rgba(175, 177, 184, 1);
+}
+
+.client-icon {
+  fill: currentColor;
 }
 
 .client-icon-div:hover,
