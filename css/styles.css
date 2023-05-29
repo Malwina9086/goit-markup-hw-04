@@ -252,6 +252,7 @@ footer {
 }
 
 .join-us-h3 {
+  display: flex;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
@@ -266,13 +267,12 @@ footer {
 .footer-media {
   justify-content: center;
   display: flex;
-  width: 206px;
-  height: 60px;
   gap: 10px;
   margin-top: 20px;
 }
 
 .footer-icon-li {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #fff;
   width: 44px;
@@ -281,7 +281,8 @@ footer {
 }
 
 .footer-icon {
-  fill: currentColor;
+  fill: #fff;
+  margin: 12px;
 }
 
 .footer-icon-li:hover,
