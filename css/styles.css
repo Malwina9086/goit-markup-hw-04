@@ -164,8 +164,12 @@ nav {
   width: 370px;
 }
 
-.portfolio-frame:hover,
-.portfolio-frame:focus {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
@@ -248,14 +252,11 @@ footer {
 }
 
 .join-us-h3 {
-  display: flex;
-  font-family: Roboto;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .block-two {
@@ -263,11 +264,10 @@ footer {
 }
 
 .footer-media {
-  display: flex;
   justify-content: center;
   display: flex;
   width: 206px;
-  height: 80px;
+  height: 60px;
   gap: 10px;
   margin-top: 20px;
 }
@@ -282,11 +282,6 @@ footer {
 
 .footer-icon {
   fill: currentColor;
-}
-
-.footer-icon:hover,
-.footer-icon:focus {
-  fill: #fff;
 }
 
 .footer-icon-li:hover,
@@ -496,11 +491,7 @@ footer {
 .social-media-icons:hover,
 .social-media-icons:focus {
   background-color: #2196f3;
-}
-
-.media-icons:hover,
-.media-icons:focus {
-  fill: #fff;
+  color: #fff;
 }
 
 .media-icons {
@@ -523,7 +514,7 @@ footer {
 
 .client-icon-block {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
 }
 
 .client-icon-div {
@@ -543,5 +534,5 @@ footer {
 
 .client-icon-div:hover,
 .client-icon-div:focus {
-  border-color: #2196f3;
+  color: #2196f3;
 }
